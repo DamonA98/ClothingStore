@@ -1,0 +1,39 @@
+﻿@model HomeViewModel
+
+
+<div id="carouselImages" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://sneakerbardetroit.com/wp-content/uploads/2021/08/Off-White-Nike-Dunk-Low-Lot-1-Release-Date-On-Feet-3-1068x1068.jpg">
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/f5/e5/d8/f5e5d854427c2a933c9434a67180c4b5.jpg">
+        </div>
+        <div class="carousel-item">
+            <img src="https://4xwvbqh1dp32osir313kjmrt-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/kaws-1.jpeg">
+        </div>
+    </div>
+</div>
+
+ 
+<div class="text-center">
+    <img src="https://static.highsnobiety.com/thumbor/qxW7L9DgIiHTP79XQch9OD96uRE=/fit-in/1000x600/smart/static.highsnobiety.com/wp-content/uploads/2019/03/07142951/ascent-kaws-report-2019-00.jpg" />
+    <h1>Sneakers of the week</h1>
+    <h5>Enjoy a weekly selection of our favorite Sneakers</h5>
+
+    <div class="row sneakers-of-the-week">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var sneakers in Model.IsSneakersofTheWeek)
+            {
+                <partial name="_SneakersCard" model="sneakers"/>
+            }
+        </div>
+
+    </div>
+</div>
+
