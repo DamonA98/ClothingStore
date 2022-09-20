@@ -26,9 +26,9 @@ namespace ClothingStore.Controllers
             return View(shoppingCartViewModel);
         }
 
-        public RedirectToActionResult AddToShoppingCart(int sneakerId)
+        public RedirectToActionResult AddToShoppingCart(int sneakersId)
         {
-            var selectedSneaker = _sneakersRepository.AllSneakers.FirstOrDefault(p => p.SneakersId == sneakerId);
+            var selectedSneaker = _sneakersRepository.AllSneakers.FirstOrDefault(p => p.SneakersId == sneakersId);
 
             if(selectedSneaker != null)
             {
