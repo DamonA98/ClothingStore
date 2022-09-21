@@ -18,7 +18,7 @@
                 (
                      new Sneakers
                      {
-                         //SneakersId = 1,
+                         SneakersId = 1,
                          Name = "Jordan 3 Cardinal",
                          Category = Categories["Basketball Shoes"],
                          Color = "Red",
@@ -39,7 +39,7 @@
 
                  new Sneakers
                  {
-                     //SneakersId = 2,
+                     SneakersId = 2,
                      Name = "Jordan 4 Lightning",
                      Category = Categories["Basketball Shoes"],
                      Color = "Yellow",
@@ -60,7 +60,7 @@
 
                  new Sneakers
                  {
-                     //SneakersId = 3,
+                     SneakersId = 3,
                      Name = "Jordan 1 Bred Toe",
                      Category = Categories["Basketball Shoes"],
                      Color = "Red",
@@ -82,7 +82,7 @@
 
                   new Sneakers
                   {
-                      //SneakersId = 4,
+                      SneakersId = 4,
                       Name = "Yeezy 700 Sun",
                       Category = Categories["Lifestyle Shoes"],
                       Color = "Grey",
@@ -102,7 +102,7 @@
 
                    new Sneakers
                    {
-                       //SneakersId = 5,
+                       SneakersId = 5,
                        Name = "Yeezy 500 Granite",
                        Category = Categories["Lifestyle Shoes"],
                        Color = "Grey",
@@ -123,7 +123,7 @@
 
                      new Sneakers
                      {
-                         //SneakersId = 6,
+                         SneakersId = 6,
                          Name = "Nike Dunk Dodgers",
                          Category = Categories["Lifestyle Shoes"],
                          Color = "Blue",
@@ -145,7 +145,7 @@
 
                        new Sneakers
                        {
-                           //SneakersId = 7,
+                           SneakersId = 7,
                            Name = "Nike Sacai Vapor waffle Sail ",
                            Category = Categories["Running Shoes"],
                            Color = "White",
@@ -165,7 +165,7 @@
 
                         new Sneakers
                         {
-                            //SneakersId = 8,
+                            SneakersId = 8,
                             Name = "Yeezy Foam Runner Onyx ",
                             Category = Categories["Running Shoes"],
                             Color = "Black",
